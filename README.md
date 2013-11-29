@@ -1,0 +1,2 @@
+jahia-settings-panels-showcase
+==============================
