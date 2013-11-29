@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content xmlns:j="http://www.jahia.org/jahia/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0">
+    <modules jcr:primaryType="jnt:modules">
+        <settings-panels-showcase j:dependencies="default"
+                                j:moduleType="module"
+                                j:title="Jahia Settings Panels Showcase"
+                                jcr:primaryType="jnt:module">
+                <portlets jcr:primaryType="jnt:portletFolder"/>
+                <files jcr:primaryType="jnt:folder">
+                    <jahia.png j:height="16"
+                         j:width="16"
+                         jcr:mixinTypes="jmix:image"
+                         jcr:primaryType="jnt:file">
+                        <jcr:content jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
+                        <thumbnail jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
+                        <thumbnail2 jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
+                    </jahia.png>
+                </files>
+                <contents jcr:primaryType="jnt:contentFolder"/>
+                <templates j:rootTemplatePath="/" jcr:primaryType="jnt:templatesFolder">
+                    <files jcr:primaryType="jnt:folder"/>
+                    <contents jcr:primaryType="jnt:contentFolder"/>
+                </templates>
+                
+                
+            </settings-panels-showcase>
+    </modules>
+</content>
