@@ -5,24 +5,32 @@
                                 j:moduleType="module"
                                 j:title="Jahia Settings Panels Showcase"
                                 jcr:primaryType="jnt:module">
-                <portlets jcr:primaryType="jnt:portletFolder"/>
-                <files jcr:primaryType="jnt:folder">
-                    <jahia.png j:height="16"
-                         j:width="16"
-                         jcr:mixinTypes="jmix:image"
-                         jcr:primaryType="jnt:file">
-                        <jcr:content jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
-                        <thumbnail jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
-                        <thumbnail2 jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
-                    </jahia.png>
-                </files>
-                <contents jcr:primaryType="jnt:contentFolder"/>
+                
                 <templates j:rootTemplatePath="/" jcr:primaryType="jnt:templatesFolder">
-                    <files jcr:primaryType="jnt:folder"/>
+                    <files jcr:primaryType="jnt:folder">
+                        <jahia.png j:height="16"
+                            j:width="16"
+                            jcr:mixinTypes="jmix:image"
+                            jcr:primaryType="jnt:file">
+                            <jcr:content jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
+                            <thumbnail jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
+                            <thumbnail2 jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
+                        </jahia.png>
+                        <jahia2.png j:height="16"
+                          j:width="16"
+                          jcr:mixinTypes="jmix:image"
+                          jcr:primaryType="jnt:file">
+                            <jcr:content jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
+                            <thumbnail jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
+                            <thumbnail2 jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
+                        </jahia2.png>
+                    </files>
                     <contents jcr:primaryType="jnt:contentFolder"/>
                 </templates>
                 
-                
+                <portlets jcr:primaryType="jnt:portletFolder"/>
+                <files jcr:primaryType="jnt:folder"/>
+                <contents jcr:primaryType="jnt:contentFolder"/>
             </settings-panels-showcase>
     </modules>
 </content>
